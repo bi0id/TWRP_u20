@@ -15,14 +15,14 @@
 #
 
 # Device path
-LOCAL_PATH := device/meizu/u20
+LOCAL_PATH := device/meizu/U20
 
 # Device board elements
 include $(LOCAL_PATH)/PlatformConfig.mk
 include $(LOCAL_PATH)/board/*.mk
 
 # Device vendor board
--include vendor/meizu/u20/BoardConfigVendor.mk
+-include vendor/meizu/U20/BoardConfigVendor.mk
 
 #######################################################################
 
